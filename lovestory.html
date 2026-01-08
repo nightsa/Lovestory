@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>บอกรัก</title>
+	<meta name="description" content="หน้าเว็บเล็ก ๆ สำหรับบอกรัก — ปุ่มรักกับไม่รักที่ตลกสักหน่อย">
+	<link rel="stylesheet" href="love.css">
+</head>
+<body>
+
+	<main class="page">
+		<h1>เธอรักเค้ามั้ย ไอ้ จิราทิพย์</h1>
+
+		<div class="stage" id="stage">
+			<button id="loveBtn" class="btn love">รัก</button>
+			<button id="noBtn" class="btn no-love">ไม่รัก</button>
+		</div>
+
+		<div id="message" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="msgTitle">
+			<div class="modal-inner">
+				<h2 id="msgTitle">เค้ารักเตอนะ ต้าวอ้วง 💖</h2>
+				<p>อยากให้รู้ไว้ว่าเค้ารักเธอมาก วันนี้หายงอนกัน</p>
+				<button id="closeMsg" class="btn">ปิด</button>
+			</div>
+		</div>
+	</main>
+
+	<script src="love.js"></script>
+</body>
+</html>
